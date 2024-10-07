@@ -39,7 +39,9 @@ retry: 10000
 
 # 引入组件
 
-SpringBoot工程 pom.xml 中引入依赖：
+1. 拉取github地址：https://github.com/guzt/sse-spring-boot-starter 代码仓库
+2. 编译安装本地maven仓库中：`mvn clean install -Dmaven.test.skip=true`
+3. 本地SpringBoot工程 pom.xml 中引入依赖：
 
 ```xml
 
